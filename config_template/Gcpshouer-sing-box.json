@@ -136,7 +136,7 @@
   ],
   "route": {
     "auto_detect_interface": true,
-    "final": "direct",
+    "final": "proxy",
     "rules": [
       {
         "protocol": "dns",
@@ -205,7 +205,7 @@
       { "tag": "geosite-pt", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/main/rule/pt.srs", "download_detour": "direct" },
       { "tag": "geosite-gfw", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/main/rule/gfw.srs", "download_detour": "direct" },
       { "tag": "geosite-proxy-A", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/main/rule/proxy-A.srs", "download_detour": "direct" },
-      { "tag": "geosite-reject-list", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/main/rule/reject-list.srs", "download_detour": "direct" },
+      { "tag": "geosite-reject-list", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://github.com/Hostage-02/sing-box-geosite/raw/main/rule/reject-list.srs", "download_detour": "direct" },
       { "tag": "geosite-openai", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs", "download_detour": "direct" },
       { "tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs", "download_detour": "direct" },
       { "tag": "geoip-google", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs", "download_detour": "direct" },
