@@ -27,6 +27,7 @@
       { "domain": [ "ghproxy.com", "cdn.jsdelivr.net", "testingcf.jsdelivr.net" ], "server": "localDns" },
       { "outbound": "any", "server": "localDns", "disable_cache": true },
       { "rule_set": "geoip-cn", "server": "localDns" },
+      { "rule_set": "geosite-cn", "server": "localDns" },
       { "rule_set": "geoip-apple", "server": "localDns" },
       { "rule_set": "geosite-apple", "server": "localDns" },
       { "rule_set": "geosite-microsoft", "server": "localDns" },
@@ -78,6 +79,7 @@
       { "rule_set": "geosite-category-ads-all", "outbound": "block" },
       { "rule_set": "geosite-reject-list", "outbound": "direct" },
       { "rule_set": "geoip-cn", "outbound": "direct" },
+      { "rule_set": "geosite-cn", "outbound": "direct" },
       { "rule_set": "geoip-apple", "outbound": "direct" },
       { "rule_set": "geosite-apple", "outbound": "direct" },
       { "rule_set": "geosite-microsoft", "outbound": "direct" },
@@ -96,6 +98,7 @@
     ],
     "rule_set": [
       { "tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs", "download_detour": "direct" },
+      { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/main/rule/direct-list.srs", "download_detour": "direct" },
       { "tag": "geosite-category-ads-all", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.srs", "download_detour": "direct" },
       { "tag": "geosite-pt", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/main/rule/pt.srs", "download_detour": "direct" },
       { "tag": "geosite-gfw", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/main/rule/gfw.srs", "download_detour": "direct" },
