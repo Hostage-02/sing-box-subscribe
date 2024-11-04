@@ -38,7 +38,7 @@
     "strategy": "prefer_ipv4"
   },
   "inbounds": [
-    { 
+    {
       "type": "tun",
       "address": [
         "172.19.0.1/30",
