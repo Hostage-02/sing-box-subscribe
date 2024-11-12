@@ -177,7 +177,7 @@ rule-providers:
   private_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: {!!merge <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/master/ProxyLite.list"}
   Proxy-A_domain: {!!merge <<: *pt, url: "https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/refs/heads/main/Proxy-A.list"}
-  pt: {!!merge <<: *pt, url: "https://github.com/Hostage-02/sing-box-geosite/raw/refs/heads/main/pt.list"}
+  pt: {!!merge <<: *pt, url: "https://raw.githubusercontent.com/Hostage-02/sing-box-geosite/refs/heads/main/pt.list"}
   ai: {!!merge <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/master/AI.list"}
   youtube_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
