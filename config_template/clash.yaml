@@ -109,7 +109,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver-policy:
-    "rule-set:private_domain,cn_domain,pt":
+    "rule-set:private_domain,cn_domain,pt_domain":
     - 223.5.5.5
     - 119.29.29.29
     "rule-set:geolocation-!cn":
