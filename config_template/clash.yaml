@@ -128,7 +128,7 @@ pr: &pr {type: select, proxies: [🚀 节点选择, ♻️ 自动选择, 🌐 �
 proxy-groups:
   - {name: 🚀 节点选择, type: select, proxies: [♻️ 自动选择, 🌐 全部节点, 🟢 直连]}
   - {name: 📹 YouTube,!!merge <<: *pr}
-  - {name: 🍀 Google,!!merge <<: *pr}
+  - {name: 🍀 Proxy-A_domain,!!merge <<: *pr}
   - {name: 🤖 ChatGPT,!!merge <<: *pr}
   - {name: 👨🏿‍💻 GitHub,!!merge <<: *pr}
   - {name: 🐬 OneDrive,!!merge <<: *pr}
