@@ -35,7 +35,7 @@ geox-url:
   asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
   
 # 控制面板
-external-controller: 127.0.0.1:9019
+external-controller: 0.0.0.0:9090
 secret: ""
 external-ui: ui
 external-ui-url: "https://ghp.ci/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
@@ -145,7 +145,7 @@ proxy-groups:
   - {name: 🌐 全部节点, type: select, include-all: true}
 rules:
   - RULE-SET,private_domain,🟢 直连
-  - RULE-SET,Proxy-A_domain,🌐 全部节点
+  - RULE-SET,Proxy-A_domain,♻️ 自动选择
   - RULE-SET,pt_domain,🟢 直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 节点选择
