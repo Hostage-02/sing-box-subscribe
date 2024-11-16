@@ -97,7 +97,7 @@ dns:
     "rule-set:private_domain,cn_domain,pt_domain":
     - 223.5.5.5
     - 119.29.29.29
-    "rule-set:geolocation-!cn":
+    "rule-set:geolocation-!cn,fcm_domain,Proxy-A_domain":
       - "https://dns.cloudflare.com/dns-query"
       - "https://dns.google/dns-query"
  
