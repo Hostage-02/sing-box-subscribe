@@ -94,7 +94,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver-policy:
-    "rule-set:private_domain,cn_domain,pt_domain":
+    "rule-set:private_domain,cn_domain,pt_domain,fcm_domain":
     - 223.5.5.5
     - 119.29.29.29
     "rule-set:geolocation-!cn":
@@ -133,7 +133,7 @@ rules:
   - RULE-SET,private_domain,🟢 直连
   - RULE-SET,Proxy-A_domain,♻️ 自动选择
   - RULE-SET,pt_domain,🟢 直连
-  - RULE-SET,fcm_domain,🚀 节点选择
+  - RULE-SET,fcm_domain,🟢 直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,ai,🤖 ChatGPT
@@ -149,7 +149,7 @@ rules:
   - RULE-SET,paypal_domain,💶 PayPal
   - RULE-SET,geolocation-!cn,🚀 节点选择
   - RULE-SET,cn_domain,🎯 全球直连
-  - RULE-SET,google_ip,♻️ 自动选择,no-resolve
+  - RULE-SET,google_ip,🍀 Google,no-resolve
   - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,cn_ip,🎯 全球直连
